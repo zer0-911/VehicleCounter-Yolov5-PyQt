@@ -1,0 +1,17 @@
+train: /home/iqbalf/Documents/VsCode/VehicleCounter-YoloV5/train_data/train/images
+val: /home/iqbalf/Documents/VsCode/VehicleCounter-YoloV5/train_data/valid/images
+
+nc: 10
+names:
+  [
+    "bike",
+    "motobike",
+    "person",
+    "traffic_light_green",
+    "traffic_light_orange",
+    "traffic_light_red",
+    "traffic_sign_30",
+    "traffic_sign_60",
+    "traffic_sign_90",
+    "vehicle",
+  ]
